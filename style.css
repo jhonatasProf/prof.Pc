@@ -1,8 +1,47 @@
-#titulo{
-    text-align: center;
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
 }
 
-.texto{
-    color: red;
-    text-align: center;
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
 }
+
+header {
+    background-color: #0074D9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    text-decoration: none;
+    color: #0074D9;
+}
+
+/* Estilize outros elementos conforme necessário */
